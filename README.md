@@ -2,8 +2,8 @@
 Custom file header is the comment area which developer gets by default while adding new file. 
 How to change comment area in XCode
 
-- Create a plist or property file with name IDETemplateMacros.plist
-* For every text macro you want to customize, add a new key to the plist’s dictionary. For example, to change the default file header, add an entry with the key FILEHEADER.
+. Create a plist or property file with name IDETemplateMacros.plist
+. For every text macro you want to customize, add a new key to the plist’s dictionary. For example, to change the default file header, add an entry with the key FILEHEADER.
 * Copy the file to one of the following locations. The directory specifies in which context the customized text macros should be applied:
 * For a single project and user:
   * <ProjectName>.xcodeproj/xcuserdata/[username].xcuserdatad/IDETemplateMacros.plist
