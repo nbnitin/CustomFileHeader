@@ -8,13 +8,13 @@ How to change comment area in XCode
 - For a single project and user:
     - <ProjectName>.xcodeproj/xcuserdata/[username].xcuserdatad/IDETemplateMacros.plist
 - For all team members in a single project:
-- <ProjectName>.xcodeproj/xcshareddata/IDETemplateMacros.plist
+    - <ProjectName>.xcodeproj/xcshareddata/IDETemplateMacros.plist
 - For all projects in a workspace for a single user:
-- <WorkspaceName>.xcworkspace/xcuserdata/[username].xcuserdatad/IDETemplateMacros.plist
+    - <WorkspaceName>.xcworkspace/xcuserdata/[username].xcuserdatad/IDETemplateMacros.plist
 - For all projects in a workspace for all team members:
-- <WorkspaceName>.xcworkspace/xcshareddata/IDETemplateMacros.plist
+    - <WorkspaceName>.xcworkspace/xcshareddata/IDETemplateMacros.plist
 - For everything you work on, regardless of project:
-- ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
+    - ~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist
 
 for new line in plist use option + enter
 
