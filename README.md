@@ -22,3 +22,15 @@ For more details
 https://help.apple.com/xcode/mac/9.0/index.html?localePath=en.lproj#/dev91a7a31fc
 
 If xcshareddata folder is not there, please create one. and it if it is added in gitignore then remove it too. it is safe to commit and push in git.
+
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
+-OR-
+
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
